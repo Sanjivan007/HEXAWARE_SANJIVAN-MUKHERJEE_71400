@@ -1,5 +1,5 @@
 arr=list(map(int,input().split()))
-sum=0
+sum=100
 for i in arr:
     sum+=i
 print(sum)
