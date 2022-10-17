@@ -1,4 +1,4 @@
-str=input("Enter the string:")
+str=input("Enter the String:")
 print("reversed: ",end='')
 rev=str[::-1]
 print(rev)
