@@ -2,11 +2,11 @@ str=input().lower()
 vowels=[]
 consonant=[]
 
-for i in str:
-    if(i in "aeiou"):
-        vowels.append(i)
-    elif i!=' ':
-        consonant.append(i)
+for f in str:
+    if(f in "aeiou"):
+        vowels.append(f)
+    elif f!=' ':
+        consonant.append(f)
 print("vowels: ",sep=" ")
 print(*vowels,sep=",")
 print("consonant: ",sep=" ")
