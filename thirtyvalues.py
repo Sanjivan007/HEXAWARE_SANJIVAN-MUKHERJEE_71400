@@ -3,7 +3,7 @@ even=[]
 odd=[]
 pos=[]
 neg=[]
-zero=[]
+zro=[]
 for i in arr:
     if i%2==0:
         even.append(i)
@@ -19,4 +19,4 @@ print(f'even: {even}')
 print(f'odd: {odd}')
 print(f'pos: {pos}')
 print(f'neg: {neg}')
-print(f'zero: {zero}')
+print(f'zro: {zero}')
