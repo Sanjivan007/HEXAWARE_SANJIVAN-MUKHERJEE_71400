@@ -1,6 +1,6 @@
 arr=list(map(int,input().split()))
 arr.sort()
-print("ascending: ")
+print("ascending order: ")
 print(*arr,sep=' ')
 arr.sort(reverse = True)
 print("descending: ")
